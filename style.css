@@ -1,0 +1,92 @@
+body{
+    background-color: #311725;
+}
+
+.container{
+    width: 50%;
+    height: 370px;
+    background-color:#311725;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffca;
+}
+.ctrl{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+}
+button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #ffca;
+    border-radius: 5px;
+    color: #ffca;
+}
+
+.btns{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    
+}
+h1{
+    text-align: center;
+    color: #ffca;
+}
+.start, .end{
+    background-color: #ffca;
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border-style: none;
+}
+p{
+    text-align: center;
+    color: #ffca;
+    font-size: 20px;
+    font-weight: bold;
+}
+.first, .second{
+    background-color: #ffca;
+    width: 120px;
+    height: 110px;
+    text-align: center;
+    font-size: 70px;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 25px;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+@font-face {
+    font-family: 'Digital Timer Font';
+    src: url('digital-7.ttf') format('truetype');
+  }
+  
+  .timer-color {
+    font-family: "Digital Timer Font", sans-serif;
+    color: rgb(113, 11, 11);
+  }
+
+.home, .guest{
+    border: 1px solid #ffca;
+    width: 30%;
+    height: 280px;
+}
+.winner{
+    background-color: rgb(8, 53, 8);
+}
+
+h2{
+    color: #ffca;
+    text-align: center;
+}
